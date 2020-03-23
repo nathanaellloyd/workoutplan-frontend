@@ -1,12 +1,11 @@
 import React from "react";
+import Card1 from "../Card1"
+import Header from "../Header";
 
 const App = ({}) => (
 <>  
-    <div className="bg">
-        <header className="pingHeader jumbotron mt-4 mb-0">
-            <h1 className="headerH1">5 Day Workout Plan</h1>
-        </header>
-        </div> 
+        <Header />
+        <Card1 />  
 </>
 );
 
