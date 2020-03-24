@@ -1,21 +1,21 @@
 import React from 'react';
-import virus from '../images/virus.jpg';
+import { Link } from 'react-router-dom';
 
 const Card = ({ title }) => (
-    <div className="col-md-6 mt-4">
-        <div className="card text-center">
-            <h5 className="card-header"></h5>
-            <div className="card-body">
-                <img src={ virus } alt="virus" />
-                <p className="title">{ title }</p>
-            </div>
-            <div className="card-footer">
-                <a href="">
-                    <button className="start-button">Start</button>
-                </a>
+    <>
+        <div className='position'>
+            <div className='card'>
+                <Link to='/day1'>
+                    <div className='transition-top'>
+                        <h2 className='day'>{title}</h2>
+                    </div>
+                    <div className='overlay'>
+                        <h2 className='glow'>START</h2>
+                    </div>
+                </Link>
             </div>
         </div>
-    </div>
-)
+    </>
+);
 
 export default Card;

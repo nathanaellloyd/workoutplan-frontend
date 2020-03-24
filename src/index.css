@@ -1,20 +1,49 @@
 @font-face {
   font-family: 'Coronaviral';
   font-weight: normal;
-  src: url("../fonts/Kurale/Kurale-Regular.ttf") format("truetype");
+  src: url("./components/fonts/Coronaviral.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'DoctorGlitch';
+  font-weight: normal;
+  src: url("./components/fonts/DoctorGlitch.otf") format("opentype");
+}
+
+/* header {
+  background-image: url("./components/images/pulseline.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  position: relative;
+  top: 15px;
+  left: 50px;
+  right: 20px;
+  bottom: 20px;
+} */
+
+h1 {
+  font-family: 'DoctorGlitch';
+  font-size: 80px;
+  text-align: center;
+}
+
+.position {
+  position: flex;
+
 }
 
 .card {
-	height: 400px;
+	height: 250px;
 	width: 250px;
 	position: relative;
 	overflow: hidden;
-  background-image: url("./components/images/virus.jpg");
+  background-image: url("./components/images/virus2.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   text-decoration: none;
+  color: #fff;
   border-radius: 25px;
 }
 
@@ -25,17 +54,35 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-  background: rgb(218, 52, 52);
+  background: rgb(5, 16, 23);
   background-size: cover;
 	display: grid;
 	place-items: center;
   transition: 0.5s;
   text-decoration: none;
-  font-size: 30px;
+}
+
+.day {
   color: white;
 }
 
-.a:hover {
+.glow {
+  font-family: 'Coronaviral';
+  font-size: 70px;
+  color: #fff;
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 11px rgb(31, 218, 77)
+  }
+  to {
+    text-shadow: 0 0 22px #ceffce
+  }
+}
+
+a:hover {
   text-decoration: none;
 }
 
@@ -55,3 +102,5 @@
 .card:hover .transition-top {
 	transform: translateY(-100%);
 }
+
+
