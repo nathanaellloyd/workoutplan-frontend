@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Coronaviral';
+  font-weight: normal;
+  src: url("../fonts/Kurale/Kurale-Regular.ttf") format("truetype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+	height: 400px;
+	width: 250px;
+	position: relative;
+	overflow: hidden;
+  background-image: url("./components/images/virus.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.overlay {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  background: rgb(218, 52, 52);
+  background-size: cover;
+	display: grid;
+	place-items: center;
+  transition: 0.5s;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+
+.a:hover {
+  text-decoration: none;
+}
+
+.card:hover .overlay {
+  opacity: 2;
+  font-size: 100px;
+}
+
+.card:hover {
+  text-decoration: none;
+}
+
+.transition-top {
+	transition: 0.5s;
+}
+
+.card:hover .transition-top {
+	transform: translateY(-100%);
 }
