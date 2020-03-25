@@ -88,7 +88,7 @@ h1 {
   justify-content: center;
 }
 
-.card {
+.page1card {
 	height: 250px;
 	width: 250px;
 	position: relative;
@@ -142,7 +142,7 @@ a:hover {
   text-decoration: none;
 }
 
-.card:hover .overlay {
+.page1card:hover .overlay {
   opacity: 2;
   font-size: 100px;
 }
@@ -151,7 +151,7 @@ a:hover {
 	transition: 0.5s;
 } 
 
-.card:hover .transition-top {
+.page1card:hover .transition-top {
 	transform: translateY(-100%);
 }
 

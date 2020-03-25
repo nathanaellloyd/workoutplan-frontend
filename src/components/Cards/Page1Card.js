@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Page1Card = ({ title }) => (
+const Page1Card = ({ title, id }) => (
     <>
         <div className='position'>
-            <div className='card'>
-                <Link to='/day1'>
+            <div className='page1card'>
+                <Link to={'/days/day' + id }>
                     <div className='transition-top'>
                         <h2 className='day'>{title}</h2>
                     </div>
