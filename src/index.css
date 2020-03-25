@@ -5,31 +5,74 @@
 }
 
 @font-face {
-  font-family: 'DoctorGlitch';
+  font-family: 'EvogriaIt';
   font-weight: normal;
-  src: url("./components/fonts/DoctorGlitch.otf") format("opentype");
+  src: url("./components/fonts/EvogriaItalic.otf") format("opentype");
 }
 
-/* header {
-  background-image: url("./components/images/pulseline.png");
-  background-repeat: no-repeat;
-  background-size: 150px;
-  position: relative;
-  top: 15px;
-  left: 50px;
-  right: 20px;
-  bottom: 20px;
-} */
+@font-face {
+  font-family: 'Evogria';
+  font-weight: normal;
+  src: url("./components/fonts/Evogria.otf") format("opentype");
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  background-color: rgb(67, 142, 252);
+}
 
 h1 {
-  font-family: 'DoctorGlitch';
+  font-family: 'EvogriaIt';
   font-size: 80px;
   text-align: center;
+  color: white;
+  z-index: 2;
+  margin: 0;
+}
+
+.fit {
+  color: rgb(201, 201, 201);
+  margin-left: 50px;
+}
+
+.pulse {
+  width: 150px;
+  position: absolute;
+  left: 440px;
+  top: 95px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .position {
-  position: flex;
+  width: 50%;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
+.position:nth-child(1),
+.position:nth-child(6) {
+  justify-content: flex-end;
+  padding-right: 70px;
+}
+
+.position:nth-child(2),
+.position:nth-child(7) {
+  justify-content: flex-start;
+  padding-left: 70px;
+}
+.position:nth-child(3),
+.position:nth-child(4),
+.position:nth-child(5) {
+  width: 33.33%;
+  justify-content: center;
 }
 
 .card {
@@ -37,13 +80,11 @@ h1 {
 	width: 250px;
 	position: relative;
 	overflow: hidden;
-  background-image: url("./components/images/virus2.png");
-  background-position: center center;
+  background-image: url("./components/images/viral.png");
+  background-size: 75%;
   background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
+  background-position: center bottom;
+  border: 0px;
   border-radius: 25px;
 }
 
@@ -54,16 +95,18 @@ h1 {
 	left: 0;
 	right: 0;
 	bottom: 0;
-  background: rgb(5, 16, 23);
+  background: rgb(20, 90, 146);
   background-size: cover;
 	display: grid;
 	place-items: center;
   transition: 0.5s;
-  text-decoration: none;
 }
 
 .day {
-  color: white;
+  font-family: 'Evogria';
+  font-size: 30px;
+  color: rgb(20, 90, 146);
+  text-align: center;
 }
 
 .glow {
@@ -75,10 +118,10 @@ h1 {
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 11px rgb(31, 218, 77)
+    text-shadow: 0 0 11px rgb(255, 255, 255)
   }
   to {
-    text-shadow: 0 0 22px #ceffce
+    text-shadow: 0 0 22px rgb(146, 146, 146)
   }
 }
 
@@ -91,16 +134,10 @@ a:hover {
   font-size: 100px;
 }
 
-.card:hover {
-  text-decoration: none;
-}
-
 .transition-top {
 	transition: 0.5s;
-}
+} 
 
 .card:hover .transition-top {
 	transform: translateY(-100%);
 }
-
-

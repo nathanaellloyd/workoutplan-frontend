@@ -5,11 +5,10 @@ const header = () => (
     <>
         <div className="bg">
             <header>
-                <h1>CORONA CARDIO</h1>
+                <h1 className="covid">COVID</h1>
                 <div className="flexed">
                     <img className="pulse" src={pulseline} />
-                    <h1>ROUTINE</h1>
-                    <img className="pulse" src={pulseline} />
+                    <h1 className="fit">Fit</h1>
                 </div>
             </header>
         </div>

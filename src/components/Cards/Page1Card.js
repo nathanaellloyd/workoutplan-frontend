@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Card = ({ title }) => (
+const Page1Card = ({ title }) => (
     <>
         <div className='position'>
             <div className='card'>
@@ -18,4 +18,4 @@ const Card = ({ title }) => (
     </>
 );
 
-export default Card;
+export default Page1Card;
