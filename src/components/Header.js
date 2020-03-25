@@ -1,5 +1,5 @@
 import React from "react";
-import pulseline from "./images/pulseline.png";
+import pulseline from "./Images/pulseline.png";
 
 const header = () => (
     <>
@@ -8,7 +8,7 @@ const header = () => (
                 <h1 className="covid">COVID</h1>
                 <div className="flexed">
                     <img className="pulse" src={pulseline} />
-                    <h1 className="fit">Fit</h1>
+                    <h1 className="fit">FIT</h1>
                 </div>
             </header>
         </div>

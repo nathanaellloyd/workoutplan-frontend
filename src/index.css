@@ -1,24 +1,30 @@
+/* ! FONTS */
+
 @font-face {
   font-family: 'Coronaviral';
   font-weight: normal;
-  src: url("./components/fonts/Coronaviral.otf") format("opentype");
+  src: url("./components/Fonts/Coronaviral.otf") format("opentype");
 }
 
 @font-face {
   font-family: 'EvogriaIt';
   font-weight: normal;
-  src: url("./components/fonts/EvogriaItalic.otf") format("opentype");
+  src: url("./components/Fonts/EvogriaItalic.otf") format("opentype");
 }
 
 @font-face {
   font-family: 'Evogria';
   font-weight: normal;
-  src: url("./components/fonts/Evogria.otf") format("opentype");
+  src: url("./components/Fonts/Evogria.otf") format("opentype");
 }
+
+/* ! BODY */
 
 body {
   background-color: rgb(255, 255, 255);
 }
+
+/* ! HEADER */
 
 header {
   background-color: rgb(67, 142, 252);
@@ -35,15 +41,22 @@ h1 {
 
 .fit {
   color: rgb(201, 201, 201);
-  margin-left: 50px;
+  transform: translateX(-50px);
 }
 
 .pulse {
   width: 150px;
-  position: absolute;
+  height: 100px;
   left: 440px;
   top: 95px;
+  transform: translateY(-5px);
 }
+
+.flexed {
+  display: flex;
+  justify-content: center;
+}
+/* ! PAGE 1 CARDS */
 
 .cards {
   display: flex;
@@ -80,7 +93,7 @@ h1 {
 	width: 250px;
 	position: relative;
 	overflow: hidden;
-  background-image: url("./components/images/viral.png");
+  background-image: url("./components/Images/viral.png");
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -140,4 +153,26 @@ a:hover {
 
 .card:hover .transition-top {
 	transform: translateY(-100%);
+}
+
+/* ! PAGE 2 CARDS */
+
+.exerciseCard {
+  border: 1px solid black;
+  width: 20%;
+  border-radius: 5px;
+}
+
+.exerciseCard img {
+  width:  90%;
+  height: 100px;
+  padding: 5% 5% 0;
+}
+
+.exerciseCard p {
+  box-sizing: border-box;
+  width: 90%;
+  border: 1px solid black;
+  margin: 0 5% 5%;
+  padding: 2.5%;
 }
