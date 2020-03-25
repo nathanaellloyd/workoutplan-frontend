@@ -1,0 +1,19 @@
+.exerciseCard {
+    border: 1px solid black;
+    width: 20%;
+    border-radius: 5px;
+}
+
+.exerciseCard img {
+    width:  90%;
+    height: 100px;
+    padding: 5% 5% 0;
+}
+
+.exerciseCard p {
+    box-sizing: border-box;
+    width: 90%;
+    border: 1px solid black;
+    margin: 0 5% 5%;
+    padding: 2.5%;
+}

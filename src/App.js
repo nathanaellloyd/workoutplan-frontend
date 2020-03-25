@@ -2,6 +2,7 @@ import React from "react";
 import Page1Card from "./components/Cards/Page1Card";
 import Page2Card from "./components/Cards/Page2Card";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Error from "./Error";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -32,6 +33,7 @@ const App = ({ }) => (
 
                         <Error />
                 </Switch>
+                <Footer />
         </Router>
 );
 

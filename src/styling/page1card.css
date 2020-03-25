@@ -1,0 +1,87 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.position {
+    width: 50%;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.position:nth-child(1),
+.position:nth-child(6) {
+    justify-content: flex-end;
+    padding-right: 110px;
+}
+
+.position:nth-child(2),
+.position:nth-child(7) {
+    justify-content: flex-start;
+    padding-left: 110px;
+}
+.position:nth-child(3),
+.position:nth-child(4),
+.position:nth-child(5) {
+    width: 33.33%;
+    justify-content: center;
+}
+
+.page1card {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../images/viral.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    border: 0px;
+    border-radius: 25px;
+}
+
+.overlay {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(20, 90, 146);
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+}
+
+.day {
+    font-family: 'Evogria';
+    font-size: 30px;
+    color: rgb(20, 90, 146);
+    text-align: center;
+}
+
+.glow {
+    font-family: 'Coronaviral';
+    font-size: 70px;
+    color: #fff;
+    animation: glow 1s infinite alternate;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.page1card:hover .overlay {
+    opacity: 2;
+    font-size: 100px;
+}
+
+.transition-top {
+    transition: 0.5s;
+} 
+
+.page1card:hover .transition-top {
+    transform: translateY(-100%);
+}
