@@ -1,0 +1,30 @@
+header {
+    background-color: rgb(67, 142, 252);
+}
+
+h1 {
+    font-family: 'EvogriaIt';
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    margin: 0;
+}
+
+.fit {
+    color: rgb(201, 201, 201);
+    transform: translateX(-50px);
+}
+
+.pulse {
+    width: 150px;
+    height: 100px;
+    left: 440px;
+    top: 95px;
+    transform: translateY(-5px);
+}
+
+.flexed {
+    display: flex;
+    justify-content: center;
+}

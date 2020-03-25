@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Coronaviral';
+    font-weight: normal;
+    src: url("../fonts/Coronaviral.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'EvogriaIt';
+    font-weight: normal;
+    src: url("../fonts/EvogriaItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Evogria';
+    font-weight: normal;
+    src: url("../fonts/Evogria.otf") format("opentype");
+}
