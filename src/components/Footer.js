@@ -1,17 +1,19 @@
 import React from 'react';
-import facebook from "../icons/facebook.png"; 
-import insta from "../icons/insta.png"; 
-import youtube from "../icons/youtube.png"; 
-import twitter from "../icons/twitter.png"; 
+import linked from "../icons/linkedin-in2.png"; 
+import insta from "../icons/instagram2.png"; 
+import youtube from "../icons/youtube2.png"; 
+import twitter from "../icons/twitter2.png"; 
 
 
 const Footer = () => (
     <>
         <footer>
-            <p>a Team A production @ 2020</p>
+            <p className="teama">Team-A</p>
+            <p className="date">@2020</p>
+            <p className="rights"><i>All rights reserved. Powered by the Will of the Gods</i></p>
             <div class="icons">
             <a href='#' class="icon" >
-                <img src={facebook} link="" alt="facebookwidget" width="100%"  class="icon" />
+                <img src={linked} link="" alt="linkedinwidget" width="100%"  class="icon" />
             </a>
             <a href='#' class="icon" >
                 <img src={twitter} link="" alt="twitterwidget" width="100%"  class="icon" />

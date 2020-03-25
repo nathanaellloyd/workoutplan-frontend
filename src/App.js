@@ -11,7 +11,7 @@ const App = ({ }) => (
                 <Header />
                 <Switch>
                         <Route exact path="/">
-                                <main className="cards">
+                                <main className="cards1">
                                         <Page1Card title="Day 1" id="1" />
                                         <Page1Card title="Day 2" id="2" />
                                         <Page1Card title="Day 3" id="3" />
@@ -23,12 +23,12 @@ const App = ({ }) => (
                         </Route>
 
                         <Route path="/days/:id" render={({ match }) => (
-                        <>
-                        <Page2Card day={match.params.id} />
-                        <Page2Card day={match.params.id} />
-                        <Page2Card day={match.params.id} />
-                        <Page2Card day={match.params.id} />
-                        </>
+                                <main className="cards2">
+                                        <Page2Card day={match.params.id} />
+                                        <Page2Card day={match.params.id} />
+                                        <Page2Card day={match.params.id} />
+                                        <Page2Card day={match.params.id} />
+                                </main>
                         )} />
 
                         <Error />
