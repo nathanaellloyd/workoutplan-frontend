@@ -1,5 +1,5 @@
 import React from "react";
-import pulseline from "./components/Images/pulseline.png";
+import pulseline from "../images/pulseline.png";
 
 const header = () => (
     <>
