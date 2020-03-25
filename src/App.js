@@ -22,7 +22,7 @@ const App = ({ }) => (
                         </Route>
 
                         <Route path="/exercise/day1" />
-                        
+
                         <Error />
                 </Switch>
         </Router>
