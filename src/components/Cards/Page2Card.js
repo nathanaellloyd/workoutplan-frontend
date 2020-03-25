@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Page2Card = ({ day }) => {
+const Page2Card = ({ name,reps,description  }) => {
 
     return (
         <article className="exerciseCard">
             <header>
-                <img>{}</img>
-                <h2>{}</h2>
+                <img alt="Someone exercising">{}</img>
+                <h2>{name}</h2>
             </header>
-            <h4>Sets: {}</h4>
-            <h4>Reps: {}</h4>
-            <p>{}</p>
+            <h4>Sets: 4</h4>
+            <h4>Reps: {reps}</h4>
+            <p>{description}</p>
         </article>
     )
 }

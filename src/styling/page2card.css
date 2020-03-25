@@ -17,3 +17,9 @@
     margin: 0 5% 5%;
     padding: 2.5%;
 }
+
+.exerciseCardWrapper {
+
+    display: flex;
+    
+}

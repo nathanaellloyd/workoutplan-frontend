@@ -7,7 +7,7 @@ const header = () => (
             <header>
                 <h1 className="covid">COVID</h1>
                 <div className="flexed">
-                    <img className="pulse" src={pulseline} />
+                    <img alt="pulse line" className="pulse" src={pulseline} />
                     <h1 className="fit">FIT</h1>
                 </div>
             </header>
