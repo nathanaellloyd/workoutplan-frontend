@@ -73,13 +73,13 @@ h1 {
 .position:nth-child(1),
 .position:nth-child(6) {
   justify-content: flex-end;
-  padding-right: 70px;
+  padding-right: 110px;
 }
 
 .position:nth-child(2),
 .position:nth-child(7) {
   justify-content: flex-start;
-  padding-left: 70px;
+  padding-left: 110px;
 }
 .position:nth-child(3),
 .position:nth-child(4),

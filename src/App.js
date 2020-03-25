@@ -21,7 +21,7 @@ const App = ({ }) => (
                                 </main>
                         </Route>
 
-                        <Route path="/exercise/day1" />
+                        <Route path="/days/:day" render={({ match }) => (<Page2Card day={match.params.day} />)} />
 
                         <Error />
                 </Switch>
