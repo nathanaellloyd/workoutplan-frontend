@@ -21,7 +21,7 @@ export default () => {
 
         apiData.map((obj,i) => (
 
-            <Page1Card key={i} title={obj.name}/>
+            <Page1Card key={i} id={i} title={obj.name}/>
         
         ))
 

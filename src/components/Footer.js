@@ -12,16 +12,16 @@ const Footer = () => (
             <p className="date">@2020</p>
             <p className="rights"><i>All rights reserved. Powered by the Will of the Gods</i></p>
             <div class="icons">
-            <a href='#' class="icon" >
+            <a href='/' class="icon" >
                 <img src={linked} link="" alt="linkedinwidget" width="100%"  class="icon" />
             </a>
-            <a href='#' class="icon" >
+            <a href='/' class="icon" >
                 <img src={twitter} link="" alt="twitterwidget" width="100%"  class="icon" />
             </a>
-            <a href='#' class="icon" >
+            <a href='/' class="icon" >
                 <img src={insta} link="" alt="instagramwidget" width="100%"  class="icon" />
             </a>
-            <a href='#' class="icon" >
+            <a href='/' class="icon" >
                 <img src={youtube} link="" alt="youtubewidget" width="100%"  class="icon" />
             </a>
             </div>
