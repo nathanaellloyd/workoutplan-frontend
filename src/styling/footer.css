@@ -4,3 +4,30 @@ footer {
     padding: 30px;
     color: white;
 }
+
+.teama {
+    font-size: 25px;
+}
+
+.date {
+    margin: 0px;
+    font-size: 15px;
+    color: rgb(201, 201, 201);
+}
+
+.rights {
+    font-size: 15px;
+    color: rgb(201, 201, 201);
+}
+
+.icons {
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    justify-content: center;
+    max-width: 3em;
+    margin: 0.25rem;
+}
