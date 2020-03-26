@@ -18,13 +18,13 @@ export default () => {
     console.log(apiData)
 
     return loaded ? (
-
-        apiData.map((obj,i) => (
+        <div className="cards1">
+        {apiData.map((obj,i) => (
 
             <Page1Card key={i} id={i} title={obj.name}/>
         
-        ))
-
+        ))}
+        </div>
     ) : (
 
         <p>wait for it</p>

@@ -8,21 +8,21 @@ import ExerciseCardWrapper from "./components/ExerciseCardWrapper"
 
 
 const App = () => (
-    <Router>
-        <Header />
-        <Switch>
-            <Route exact path="/">
-                <CardWrapper/>
-            </Route>
+        <Router>
+                <Header />
+                <Switch>
+                        <Route exact path="/">
+                                <CardWrapper />
+                        </Route>
 
-            <Route exact path="/days/:id" render={({ match }) => (
-                <ExerciseCardWrapper day={match.params.id} />
-            )} />
+                        <Route exact path="/days/:id" render={({ match }) => (
+                                <ExerciseCardWrapper day={match.params.id} />
+                        )} />
 
-            <Error />
-        </Switch>
-        <Footer />
-    </Router>
+                        <Error />
+                </Switch>
+                <Footer />
+        </Router>
 );
 
 export default App;
