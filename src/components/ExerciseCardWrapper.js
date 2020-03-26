@@ -1,13 +1,14 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import axios from '../axios';
 import Page2Card from './Cards/Page2Card'
+import { Link } from 'react-router-dom';
 
-export default ({day}) => {
+export default ({ day }) => {
 
-    const [loaded,setLoaded] = useState(false)
-    const [apiData,setApiData] = useState({})
+    const [loaded, setLoaded] = useState(false)
+    const [apiData, setApiData] = useState({})
 
-    axios.get(`/days/${day}`).then(({data}) => {
+    axios.get(`/days/${day}`).then(({ data }) => {
 
         !loaded ? setApiData(data.data.exercises) : console.log('loaded');
 
@@ -18,23 +19,27 @@ export default ({day}) => {
     console.log(apiData)
 
     return loaded ? (
-        <div className="exerciseCardWrapper">
-            { apiData.map((obj,i) => (
+        <>
+            <div className="exerciseCardWrapper">
+                <div className="background" />
+                {apiData.map((obj, i) => (
 
-                <Page2Card 
-                    key={i} 
-                    name={obj.exerciseName} 
-                    reps={obj.exerciseRepititions}
-                    description={obj.exerciseDescription}
-                />
-            
-            ))}
-        </div>
+                    <Page2Card
+                        key={i}
+                        name={obj.exerciseName}
+                        reps={obj.exerciseRepititions}
+                        description={obj.exerciseDescription}
+                    />
 
+                ))}
+            </div>
+
+            <Link to="/" className="doneButton">DONE</Link>
+        </>
     ) : (
 
-        <p>wait for it</p>
+            <p>wait for it</p>
 
-    )
+        )
 
 }

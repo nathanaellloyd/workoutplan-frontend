@@ -9,4 +9,8 @@
         width: unset;
         margin-bottom: 40px;
     }
+
+    .background {
+        display: none;
+    }
 }

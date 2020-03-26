@@ -8,6 +8,7 @@
     border: 1px solid black;
     width: 20%;
     border-radius: 5px;
+    background-color: white;
 }
 
 .exerciseCard img {
@@ -25,11 +26,22 @@
 }
 
 .exerciseCardWrapper {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 80px;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
     background-image: url("../images/line.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
 }
