@@ -29,4 +29,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding: 80px;
+    background-image: url("../images/line.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
