@@ -21,7 +21,6 @@ export default ({ day }) => {
     return loaded ? (
         <>
             <div className="exerciseCardWrapper">
-                <div className="background" />
                 {apiData.map((obj, i) => (
 
                     <Page2Card
