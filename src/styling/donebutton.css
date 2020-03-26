@@ -5,9 +5,15 @@
 
 .doneButton {
     background-color: #438efc;
+    border-radius: 0.2em;
     color: white;
     padding: 0.8em 1.5em;
     font-family: "PoppinsItalic", sans-serif;
     cursor: pointer;
     margin: 2rem; 
 }
+
+.doneButtonPosition a:hover {
+    background-color: white;
+    font-weight: bolder;
+  }
