@@ -33,8 +33,9 @@ export default ({ day }) => {
 
                 ))}
             </div>
-
+            <div className="doneButtonPosition"> 
             <Link to="/" className="doneButton">DONE</Link>
+            </div>
         </>
     ) : (
 
