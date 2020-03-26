@@ -1,0 +1,14 @@
+.PNFwrap {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+}
+.pageNotFoundTitle {
+    display: inline-block;
+    font-size: 5rem;
+}
+
+.pageNotFoundText {
+    font-size: 2rem;
+    margin: 2rem;
+}
