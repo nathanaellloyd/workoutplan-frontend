@@ -1,34 +1,51 @@
-import React, {useState} from 'react'
+import React, { useState, useEffect } from 'react'
 import axios from '../axios'
 import Page1Card from './Cards/Page1Card'
 
 export default () => {
 
-    const [loaded,setLoaded] = useState(false)
-    const [apiData,setApiData] = useState({})
 
-    axios.get('/days').then(({data}) => {
+	const [loaded, setLoaded] = useState(false)
+	const [apiData, setApiData] = useState({})
 
-        !loaded ? setApiData(data.data) : console.log('not loaded');
 
-        setLoaded(true)
+	useEffect(() => {
 
-    })
+    
+		axios.get('/days').then(({ data }) => {
 
-    console.log(apiData)
-
-    return loaded ? (
-        <div className="cards1">
-        {apiData.map((obj,i) => (
-
-            <Page1Card key={i} id={i} title={obj.name}/>
         
-        ))}
-        </div>
-    ) : (
+			setApiData(data.data);
 
-        <p>wait for it</p>
+        
+			setLoaded(true)
 
-    )
+        
+		})
 
+    
+	}, [setApiData])
+
+
+	console.log(apiData)
+
+
+	return loaded ? (
+		<div className="cards1">
+			{ apiData.map((obj, i) => (
+
+				<Page1Card key={ i } id={ i } title={ obj.name } />
+
+            
+			)) }
+		</div>
+	) : (
+
+    
+			<p>wait for it</p>
+
+        
+		)
+
+    
 }
