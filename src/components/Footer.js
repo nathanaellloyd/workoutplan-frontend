@@ -9,20 +9,20 @@ const Footer = () => (
     <>
         <footer>
             <p className="teama">TEAM-A</p>
-            <p className="date">@2020</p>
+            <p className="date"> &copy; 2020</p>
             <p className="rights"><i>All rights reserved. Powered by the Will of the Gods</i></p>
-            <div class="icons">
+            <div className="icons">
             <a href='/' className="icon" >
-                <img src={linked} link="" alt="linkedinwidget" width="100%"  class="icon" />
+                <img src={linked} link="" alt="linkedinwidget" width="100%"  className="icon" />
             </a>
             <a href='/' className="icon" >
-                <img src={twitter} link="" alt="twitterwidget" width="100%"  class="icon" />
+                <img src={twitter} link="" alt="twitterwidget" width="100%"  className="icon" />
             </a>
             <a href='/' className="icon" >
-                <img src={insta} link="" alt="instagramwidget" width="100%"  class="icon" />
+                <img src={insta} link="" alt="instagramwidget" width="100%"  className="icon" />
             </a>
             <a href='/' className="icon" >
-                <img src={youtube} link="" alt="youtubewidget" width="100%"  class="icon" />
+                <img src={youtube} link="" alt="youtubewidget" width="100%"  className="icon" />
             </a>
             </div>
         </footer>
