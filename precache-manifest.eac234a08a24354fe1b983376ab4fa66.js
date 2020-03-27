@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cda60f964495580be806d93dbb1112b0",
+    "revision": "de591269b088ee35692bbc6b46f2c591",
     "url": "/workoutplan-frontend/index.html"
   },
   {
-    "revision": "aea9237c1abf9848662e",
-    "url": "/workoutplan-frontend/static/css/main.582f4ff6.chunk.css"
+    "revision": "bac9408f0bac9de93cde",
+    "url": "/workoutplan-frontend/static/css/main.6582757c.chunk.css"
   },
   {
     "revision": "e814430fa17ca163ea9f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/workoutplan-frontend/static/js/2.8358f607.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aea9237c1abf9848662e",
-    "url": "/workoutplan-frontend/static/js/main.461b09c5.chunk.js"
+    "revision": "bac9408f0bac9de93cde",
+    "url": "/workoutplan-frontend/static/js/main.522b12c2.chunk.js"
   },
   {
     "revision": "fd22b21cb3c261c4f01f",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/workoutplan-frontend/static/media/linkedin-in2.31f4cbbb.png"
   },
   {
-    "revision": "9e10b10e494b0186f7a6897c9a6bf412",
-    "url": "/workoutplan-frontend/static/media/seinfeld.9e10b10e.jpg"
+    "revision": "e0d35610fb80758e75281a3b20c1a4bc",
+    "url": "/workoutplan-frontend/static/media/seinfeld.e0d35610.jpg"
   },
   {
     "revision": "c8f7c0549dbbb50685cef2d691d0772d",

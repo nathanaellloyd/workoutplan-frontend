@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/workoutplan-frontend/static/css/main.582f4ff6.chunk.css",
-    "main.js": "/workoutplan-frontend/static/js/main.461b09c5.chunk.js",
-    "main.js.map": "/workoutplan-frontend/static/js/main.461b09c5.chunk.js.map",
+    "main.css": "/workoutplan-frontend/static/css/main.6582757c.chunk.css",
+    "main.js": "/workoutplan-frontend/static/js/main.522b12c2.chunk.js",
+    "main.js.map": "/workoutplan-frontend/static/js/main.522b12c2.chunk.js.map",
     "runtime-main.js": "/workoutplan-frontend/static/js/runtime-main.c53b7dee.js",
     "runtime-main.js.map": "/workoutplan-frontend/static/js/runtime-main.c53b7dee.js.map",
     "static/js/2.8358f607.chunk.js": "/workoutplan-frontend/static/js/2.8358f607.chunk.js",
     "static/js/2.8358f607.chunk.js.map": "/workoutplan-frontend/static/js/2.8358f607.chunk.js.map",
     "index.html": "/workoutplan-frontend/index.html",
-    "precache-manifest.c0951b9c587f1f8a42ad932acaa8f650.js": "/workoutplan-frontend/precache-manifest.c0951b9c587f1f8a42ad932acaa8f650.js",
+    "precache-manifest.eac234a08a24354fe1b983376ab4fa66.js": "/workoutplan-frontend/precache-manifest.eac234a08a24354fe1b983376ab4fa66.js",
     "service-worker.js": "/workoutplan-frontend/service-worker.js",
-    "static/css/main.582f4ff6.chunk.css.map": "/workoutplan-frontend/static/css/main.582f4ff6.chunk.css.map",
+    "static/css/main.6582757c.chunk.css.map": "/workoutplan-frontend/static/css/main.6582757c.chunk.css.map",
     "static/js/2.8358f607.chunk.js.LICENSE.txt": "/workoutplan-frontend/static/js/2.8358f607.chunk.js.LICENSE.txt",
     "static/media/index.css": "/workoutplan-frontend/static/media/viral.519a1027.png",
     "static/media/instagram2.png": "/workoutplan-frontend/static/media/instagram2.6ca3ed0f.png",
     "static/media/linkedin-in2.png": "/workoutplan-frontend/static/media/linkedin-in2.31f4cbbb.png",
-    "static/media/seinfeld.jpg": "/workoutplan-frontend/static/media/seinfeld.9e10b10e.jpg",
+    "static/media/seinfeld.jpg": "/workoutplan-frontend/static/media/seinfeld.e0d35610.jpg",
     "static/media/twitter2.png": "/workoutplan-frontend/static/media/twitter2.c8f7c054.png",
     "static/media/youtube2.png": "/workoutplan-frontend/static/media/youtube2.ad511711.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c53b7dee.js",
     "static/js/2.8358f607.chunk.js",
-    "static/css/main.582f4ff6.chunk.css",
-    "static/js/main.461b09c5.chunk.js"
+    "static/css/main.6582757c.chunk.css",
+    "static/js/main.522b12c2.chunk.js"
   ]
 }
