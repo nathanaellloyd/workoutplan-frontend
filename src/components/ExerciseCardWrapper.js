@@ -43,7 +43,9 @@ export default ({ day }) => {
 		</>
 	) : (
 
-			<p>wait for it</p>
+			<div className="holder">
+
+            </div>
 
 		)
 

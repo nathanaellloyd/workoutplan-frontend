@@ -42,7 +42,9 @@ export default () => {
 	) : (
 
     
-			<p>wait for it</p>
+        <div className="holder">
+
+        </div>
 
         
 		)
