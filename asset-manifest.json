@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/workoutplan-frontend/static/css/main.6582757c.chunk.css",
-    "main.js": "/workoutplan-frontend/static/js/main.522b12c2.chunk.js",
-    "main.js.map": "/workoutplan-frontend/static/js/main.522b12c2.chunk.js.map",
+    "main.js": "/workoutplan-frontend/static/js/main.75057b19.chunk.js",
+    "main.js.map": "/workoutplan-frontend/static/js/main.75057b19.chunk.js.map",
     "runtime-main.js": "/workoutplan-frontend/static/js/runtime-main.c53b7dee.js",
     "runtime-main.js.map": "/workoutplan-frontend/static/js/runtime-main.c53b7dee.js.map",
     "static/js/2.8358f607.chunk.js": "/workoutplan-frontend/static/js/2.8358f607.chunk.js",
     "static/js/2.8358f607.chunk.js.map": "/workoutplan-frontend/static/js/2.8358f607.chunk.js.map",
     "index.html": "/workoutplan-frontend/index.html",
-    "precache-manifest.eac234a08a24354fe1b983376ab4fa66.js": "/workoutplan-frontend/precache-manifest.eac234a08a24354fe1b983376ab4fa66.js",
+    "precache-manifest.f94a5cf7f155861d32f0cf5146abe5c0.js": "/workoutplan-frontend/precache-manifest.f94a5cf7f155861d32f0cf5146abe5c0.js",
     "service-worker.js": "/workoutplan-frontend/service-worker.js",
     "static/css/main.6582757c.chunk.css.map": "/workoutplan-frontend/static/css/main.6582757c.chunk.css.map",
     "static/js/2.8358f607.chunk.js.LICENSE.txt": "/workoutplan-frontend/static/js/2.8358f607.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.c53b7dee.js",
     "static/js/2.8358f607.chunk.js",
     "static/css/main.6582757c.chunk.css",
-    "static/js/main.522b12c2.chunk.js"
+    "static/js/main.75057b19.chunk.js"
   ]
 }
