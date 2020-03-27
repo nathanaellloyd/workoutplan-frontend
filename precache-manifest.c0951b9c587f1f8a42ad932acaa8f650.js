@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92592bee3ddfdf87136f0b2d62609063",
+    "revision": "cda60f964495580be806d93dbb1112b0",
     "url": "/workoutplan-frontend/index.html"
   },
   {
-    "revision": "a3588f7f45132b1889b9",
-    "url": "/workoutplan-frontend/static/css/main.f046f331.chunk.css"
+    "revision": "aea9237c1abf9848662e",
+    "url": "/workoutplan-frontend/static/css/main.582f4ff6.chunk.css"
   },
   {
     "revision": "e814430fa17ca163ea9f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/workoutplan-frontend/static/js/2.8358f607.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a3588f7f45132b1889b9",
-    "url": "/workoutplan-frontend/static/js/main.7c174e89.chunk.js"
+    "revision": "aea9237c1abf9848662e",
+    "url": "/workoutplan-frontend/static/js/main.461b09c5.chunk.js"
   },
   {
     "revision": "fd22b21cb3c261c4f01f",
@@ -44,16 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/workoutplan-frontend/static/media/Mont-Heavy.7d90a574.otf"
   },
   {
-    "revision": "b265b78cb1f414ca0fe9008ef1ffbef7",
-    "url": "/workoutplan-frontend/static/media/bacteria.b265b78c.jpg"
-  },
-  {
     "revision": "6ca3ed0fea0b89a6c15f18aeeb5c6ead",
     "url": "/workoutplan-frontend/static/media/instagram2.6ca3ed0f.png"
   },
   {
     "revision": "31f4cbbb7d818d22bd180ac8c9c5f66e",
     "url": "/workoutplan-frontend/static/media/linkedin-in2.31f4cbbb.png"
+  },
+  {
+    "revision": "9e10b10e494b0186f7a6897c9a6bf412",
+    "url": "/workoutplan-frontend/static/media/seinfeld.9e10b10e.jpg"
   },
   {
     "revision": "c8f7c0549dbbb50685cef2d691d0772d",
