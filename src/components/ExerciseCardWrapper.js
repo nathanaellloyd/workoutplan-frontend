@@ -31,7 +31,7 @@ export default ({ day }) => {
 					<Page2Card
 						key={ i }
 						name={ obj.exerciseName }
-						reps={ obj.exerciseRepetitions }
+						exerciseRepetitions={ obj.exerciseRepetitions }
 						description={ obj.exerciseDescription }
 					/>
 
