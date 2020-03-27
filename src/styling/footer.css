@@ -8,19 +8,20 @@ footer {
 .teama {
     font-size: 25px;
     font-family: "Mont-Heavy";
+    margin-bottom: 0.25rem;
 }
 
 .date {
     margin: 0px;
     font-size: 15px;
     color: rgb(201, 201, 201);
-    font-family: "Mont-Light";
+    font-family: "Mont-ExtraLight";
 }
 
 .rights {
     font-size: 15px;
     color: rgb(201, 201, 201);
-    font-family: "Mont-Light";
+    font-family: "Mont-ExtraLight";
 }
 
 .icons {
@@ -31,6 +32,6 @@ footer {
 
 .icon {
     justify-content: center;
-    max-width: 3em;
+    max-width: 2em;
     margin: 0.25rem;
 }
