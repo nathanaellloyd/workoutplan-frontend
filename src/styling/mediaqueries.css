@@ -23,6 +23,7 @@
         width: 100%;
         padding: 20px 0px;
     }
+    
 }
 
 @media (min-width: 901px) {
@@ -32,6 +33,12 @@
         padding-right: 110px;
     }
 
+    .position:nth-child(2),
+    .position:nth-child(7) {
+    justify-content: flex-start;
+    padding-left: 110px;
+    }
+    
     .position:nth-child(3),
     .position:nth-child(4),
     .position:nth-child(5) {
