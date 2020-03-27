@@ -14,8 +14,8 @@
 }
 
 .exerciseCard img {
-    width:  90%;
-    height: 100px;
+    width:  100%;
+    height: 50%;
     padding: 5% 5% 0;
 }
 
@@ -37,8 +37,10 @@
 header h2 {
     font-family: 'Evogria';
     text-decoration: underline;
+    padding: 20px;
 }
 
 h5 {
     font-family: 'Evogria';
 }
+
