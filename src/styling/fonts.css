@@ -1,23 +1,23 @@
 @font-face {
-    font-family: 'Coronaviral';
+    font-family: "Coronaviral";
     font-weight: normal;
     src: url("../fonts/Coronaviral.otf") format("opentype");
 }
 
 @font-face {
-    font-family: 'EvogriaIt';
+    font-family: "EvogriaIt";
     font-weight: normal;
     src: url("../fonts/EvogriaItalic.otf") format("opentype");
 }
 
 @font-face {
-    font-family: 'Evogria';
+    font-family: "Evogria";
     font-weight: normal;
     src: url("../fonts/Evogria.otf") format("opentype");
 }
 
 @font-face {
-    font-family: 'Mont-ExtraLight';
+    font-family: "Mont-ExtraLight";
     font-weight: normal;
     src: url("../fonts/Mont-ExtraLight.otf") format("opentype");
 }
@@ -25,5 +25,5 @@
 @font-face {
     font-family: 'Mont-Heavy';
     font-weight: normal;
-    src: url("../fonts/Mont-Heavy.otf.otf") format("opentype");
+    src: url("../fonts/Mont-Heavy.otf") format("opentype");
 }

@@ -7,17 +7,20 @@ footer {
 
 .teama {
     font-size: 25px;
+    font-family: "Mont-Heavy";
 }
 
 .date {
     margin: 0px;
     font-size: 15px;
     color: rgb(201, 201, 201);
+    font-family: "Mont-Light";
 }
 
 .rights {
     font-size: 15px;
     color: rgb(201, 201, 201);
+    font-family: "Mont-Light";
 }
 
 .icons {

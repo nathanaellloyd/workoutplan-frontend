@@ -8,9 +8,9 @@ const Page2Card = ({ name,reps,description  }) => {
                 <img alt="Someone exercising">{}</img>
                 <h2>{name}</h2>
             </header>
-            <h4>Sets: 4</h4>
-            <h4>Reps: {reps}</h4>
-            <p>{description}</p>
+            <h5>Sets: 4</h5>
+            <h5>Reps: {reps}</h5>
+            <p className="exerciseDescription">{description}</p>
         </article>
     )
 }

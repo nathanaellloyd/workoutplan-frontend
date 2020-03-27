@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Error from "./Error";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import CardWrapper from "./components/DayCardWrapper";
 import ExerciseCardWrapper from "./components/ExerciseCardWrapper"
 

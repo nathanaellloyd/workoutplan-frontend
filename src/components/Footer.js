@@ -8,7 +8,7 @@ import twitter from "../icons/twitter2.png";
 const Footer = () => (
     <>
         <footer>
-            <p className="teama">Team-A</p>
+            <p className="teama">TEAM-A</p>
             <p className="date">@2020</p>
             <p className="rights"><i>All rights reserved. Powered by the Will of the Gods</i></p>
             <div class="icons">
