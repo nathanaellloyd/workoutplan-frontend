@@ -5,10 +5,12 @@
 }
 
 .exerciseCard {
-    border: 1px solid black;
     width: 20%;
     border-radius: 5px;
     background-color: white;
+    color: white;
+    background-color: rgb(67, 142, 252);
+    text-align: center;
 }
 
 .exerciseCard img {
@@ -20,7 +22,6 @@
 .exerciseCard p {
     box-sizing: border-box;
     width: 90%;
-    border: 1px solid black;
     margin: 0 5% 5%;
     padding: 2.5%;
 }
@@ -31,4 +32,12 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding: 80px;
+}
+
+h2 {
+    font-family: 'Evogria';
+}
+
+h4 {
+    font-family: 'Evogria';
 }

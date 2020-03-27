@@ -4,7 +4,7 @@ import pulseline from "../images/pulseline.png";
 const header = () => (
     <>
         <div className="bg">
-            <header>
+            <header className="pagetop">
                 <h1 className="covid">COVID</h1>
                 <div className="flexed">
                     <img alt="pulse line" className="pulse" src={pulseline} />

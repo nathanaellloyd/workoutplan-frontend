@@ -15,3 +15,15 @@
     font-weight: normal;
     src: url("../fonts/Evogria.otf") format("opentype");
 }
+
+@font-face {
+    font-family: 'Mont-ExtraLight';
+    font-weight: normal;
+    src: url("../fonts/Mont-ExtraLight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Mont-Heavy';
+    font-weight: normal;
+    src: url("../fonts/Mont-Heavy.otf.otf") format("opentype");
+}
