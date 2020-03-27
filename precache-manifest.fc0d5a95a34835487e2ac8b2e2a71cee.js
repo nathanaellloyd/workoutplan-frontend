@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ba33205699e0bbefda6582b54cc7969",
+    "revision": "6864c9a70937eb523d08c83819e276ce",
     "url": "/workoutplan-frontend/index.html"
   },
   {
-    "revision": "a3601d0b218be771bb72",
-    "url": "/workoutplan-frontend/static/css/main.6582757c.chunk.css"
+    "revision": "9e6d3d6e05c6d8902b18",
+    "url": "/workoutplan-frontend/static/css/main.894b02ef.chunk.css"
   },
   {
     "revision": "e814430fa17ca163ea9f",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/workoutplan-frontend/static/js/2.8358f607.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a3601d0b218be771bb72",
+    "revision": "9e6d3d6e05c6d8902b18",
     "url": "/workoutplan-frontend/static/js/main.75057b19.chunk.js"
   },
   {
