@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Page2Card = ({ name,reps,description  }) => {
+const Page2Card = ({ name,reps,description, url}) => {
 
     return (
         <article className="exerciseCard">
             <header>
-                <img alt="Someone exercising">{}</img>
+                <img alt="Someone exercising" src={`${process.env.PUBLIC_URL}/${url}`} />
                 <h2>{name}</h2>
             </header>
             <h5>Sets: 4</h5>

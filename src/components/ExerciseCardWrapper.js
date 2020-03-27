@@ -28,6 +28,7 @@ export default ({ day }) => {
                         name={obj.exerciseName}
                         reps={obj.exerciseRepititions}
                         description={obj.exerciseDescription}
+                        url={obj.exerciseImageURL}
                     />
 
                 ))}
