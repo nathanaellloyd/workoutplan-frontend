@@ -4,11 +4,13 @@
     margin-top: 2rem;
 }
 .pageNotFoundTitle {
+    font-family: 'Mont-Heavy';
     display: inline-block;
     font-size: 5rem;
 }
 
 .pageNotFoundText {
+    font-family: 'Mont-ExtraLight';
     font-size: 2rem;
     margin: 2rem;
 }
