@@ -20,7 +20,6 @@ export default ({ day }) => {
 
 	}, [setApiData, day]);
 
-
 	console.log(apiData)
 
 	return loaded ? (
@@ -32,7 +31,8 @@ export default ({ day }) => {
 						key={ i }
 						name={ obj.exerciseName }
 						exerciseRepetitions={ obj.exerciseRepetitions }
-						description={ obj.exerciseDescription }
+                        description={ obj.exerciseDescription }
+                        url={obj.exerciseImageURL}
 					/>
 
 				)) }
