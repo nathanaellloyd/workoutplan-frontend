@@ -1,5 +1,4 @@
 import React from 'react';
-// import bacteria from "./images/bacteria.jpg";
 import seinfeld from "./images/seinfeld.jpg";
 
 
