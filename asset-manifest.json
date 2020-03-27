@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/workoutplan-frontend/static/css/main.5f145c88.chunk.css",
+    "main.js": "/workoutplan-frontend/static/js/main.67e17542.chunk.js",
+    "main.js.map": "/workoutplan-frontend/static/js/main.67e17542.chunk.js.map",
+    "runtime-main.js": "/workoutplan-frontend/static/js/runtime-main.c53b7dee.js",
+    "runtime-main.js.map": "/workoutplan-frontend/static/js/runtime-main.c53b7dee.js.map",
+    "static/js/2.abd6fcaa.chunk.js": "/workoutplan-frontend/static/js/2.abd6fcaa.chunk.js",
+    "static/js/2.abd6fcaa.chunk.js.map": "/workoutplan-frontend/static/js/2.abd6fcaa.chunk.js.map",
+    "index.html": "/workoutplan-frontend/index.html",
+    "precache-manifest.e780d57b52191c896b6e43b06dcadb7d.js": "/workoutplan-frontend/precache-manifest.e780d57b52191c896b6e43b06dcadb7d.js",
+    "service-worker.js": "/workoutplan-frontend/service-worker.js",
+    "static/css/main.5f145c88.chunk.css.map": "/workoutplan-frontend/static/css/main.5f145c88.chunk.css.map",
+    "static/js/2.abd6fcaa.chunk.js.LICENSE.txt": "/workoutplan-frontend/static/js/2.abd6fcaa.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/workoutplan-frontend/static/media/viral.519a1027.png",
+    "static/media/bacteria.jpg": "/workoutplan-frontend/static/media/bacteria.b265b78c.jpg",
+    "static/media/instagram2.png": "/workoutplan-frontend/static/media/instagram2.6ca3ed0f.png",
+    "static/media/linkedin-in2.png": "/workoutplan-frontend/static/media/linkedin-in2.31f4cbbb.png",
+    "static/media/twitter2.png": "/workoutplan-frontend/static/media/twitter2.c8f7c054.png",
+    "static/media/youtube2.png": "/workoutplan-frontend/static/media/youtube2.ad511711.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c53b7dee.js",
+    "static/js/2.abd6fcaa.chunk.js",
+    "static/css/main.5f145c88.chunk.css",
+    "static/js/main.67e17542.chunk.js"
+  ]
+}
